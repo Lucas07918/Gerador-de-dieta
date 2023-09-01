@@ -1,0 +1,58 @@
+@import url('./global.css');
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#titulo{
+    background-color: #19ba67;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+#gerarNovamente{
+    border-radius: 20px;
+    padding: 10px;
+    border: 5px solid #19ba67;
+    justify-content: center;
+    align-items: center;
+    color: #19ba67;
+}
+
+#container{
+    background-color: rgb(194, 194, 194);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+
+#refeicao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    width: 30%;
+    border-spacing: 0 5px;
+}
+
+th{
+    font-weight: 400;
+    padding: 14px 28px;
+    text-align: left;
+    line-height: 20px;
+}
+
+td{
+    padding: 14px 10px;
+    border: 0;
+    background-color: white;
+}

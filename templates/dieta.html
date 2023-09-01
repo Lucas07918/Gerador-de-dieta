@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/dieta.css">
+    <title>Dieta</title>
+</head>
+<body>
+    <div id="header">
+        <div id="titulo">
+            <h1>Cardápio</h1>
+        </div>
+        <div id="gerarNovamente">
+            <h1>Gerar Novamente</h1>
+        </div>
+    </div>
+    <div id="container">
+        <div id="refeicao">
+            <h1>Café da Manhã</h1>
+        </div>
+        {% if comidas %}
+        {% for c in comidas %}
+        <div id="content">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Porção</th>
+                        <th>kcal</th>
+                    </tr>
+                </thead>
+                {% if comidas %}
+                {% for c in comidas %}
+                <tbody>
+                    <tr>
+                        <td>{{c['descricao']}}</td>
+                        <td>{{ c['quantidade'] }}</td>
+                        <td>{{ c['calorias'] }}</td>
+                    </tr>
+                </tbody>
+                {% endfor %}
+                {% else %}
+                <h2>Não existe comidas cadastradas</h2>
+                {% endif %}
+            </table>
+        </div>
+        {% endfor %}
+        {% else %}
+        <h2>Não existe comidas cadastradas</h2>
+        {% endif %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,506 @@
+[
+    {
+        "id": {
+            "timestamp": 1594720331,
+            "date": "2020-07-14T09:52:11.000+00:00"
+        },
+        "descricao": "Frango / Galinha",
+        "quantidade": "1/2 frango (334 g)",
+        "calorias": "731 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720331,
+            "date": "2020-07-14T09:52:11.000+00:00"
+        },
+        "descricao": "Frango capão",
+        "quantidade": "1 capão (1418 g)",
+        "calorias": "3247 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720817,
+            "date": "2020-07-14T10:00:17.000+00:00"
+        },
+        "descricao": "Frango assado",
+        "quantidade": "1 peito (172 g)",
+        "calorias": "282 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720760,
+            "date": "2020-07-14T09:59:20.000+00:00"
+        },
+        "descricao": "Pão de batata",
+        "quantidade": "1 fatia (32 g)",
+        "calorias": "85 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720829,
+            "date": "2020-07-14T10:00:29.000+00:00"
+        },
+        "descricao": "Arestas de batata",
+        "quantidade": "1 porção (100 g)",
+        "calorias": "123 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720829,
+            "date": "2020-07-14T10:00:29.000+00:00"
+        },
+        "descricao": "Batata",
+        "quantidade": "1 batata (214 g)",
+        "calorias": "165 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720829,
+            "date": "2020-07-14T10:00:29.000+00:00"
+        },
+        "descricao": "Bolinho de batata",
+        "quantidade": "1 pedaço (40 g)",
+        "calorias": "50 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720829,
+            "date": "2020-07-14T10:00:29.000+00:00"
+        },
+        "descricao": "batata palha",
+        "quantidade": "1/2 xícara (18 g)",
+        "calorias": "94 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720958,
+            "date": "2020-07-14T10:02:38.000+00:00"
+        },
+        "descricao": "Batata",
+        "quantidade": "1 batata (213 g)",
+        "calorias": "164 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720829,
+            "date": "2020-07-14T10:00:29.000+00:00"
+        },
+        "descricao": "Purê de batatas",
+        "quantidade": "1 xícara (242 g)",
+        "calorias": "215 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720829,
+            "date": "2020-07-14T10:00:29.000+00:00"
+        },
+        "descricao": "Fécula de batata",
+        "quantidade": "1 colher de sopa (12 g)",
+        "calorias": "40 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720817,
+            "date": "2020-07-14T10:00:17.000+00:00"
+        },
+        "descricao": "Purê de batata",
+        "quantidade": "1 xícara (210 g)",
+        "calorias": "174 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720817,
+            "date": "2020-07-14T10:00:17.000+00:00"
+        },
+        "descricao": "Salada de batata",
+        "quantidade": "1/3 xícara (95 g)",
+        "calorias": "136 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720894,
+            "date": "2020-07-14T10:01:34.000+00:00"
+        },
+        "descricao": "Sopa de batata",
+        "quantidade": "1 porção (240 g)",
+        "calorias": "192 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720894,
+            "date": "2020-07-14T10:01:34.000+00:00"
+        },
+        "descricao": "Sopa de creme de batata",
+        "quantidade": "1 xícara (244 g)",
+        "calorias": "73 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720829,
+            "date": "2020-07-14T10:00:29.000+00:00"
+        },
+        "descricao": "Croquete de batata",
+        "quantidade": "1 porção (138 g)",
+        "calorias": "175 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720829,
+            "date": "2020-07-14T10:00:29.000+00:00"
+        },
+        "descricao": "Salada de batata",
+        "quantidade": "1 xícara (250 g)",
+        "calorias": "358 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720649,
+            "date": "2020-07-14T09:57:29.000+00:00"
+        },
+        "descricao": "Leite de arroz",
+        "quantidade": "1 xícara (245 g)",
+        "calorias": "120 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720691,
+            "date": "2020-07-14T09:58:11.000+00:00"
+        },
+        "descricao": "Leite de arroz",
+        "quantidade": "1 xícara (245 g)",
+        "calorias": "120 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720894,
+            "date": "2020-07-14T10:01:34.000+00:00"
+        },
+        "descricao": "Sopa de tomate e arroz",
+        "quantidade": "1 xícara (247 g)",
+        "calorias": "116 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720894,
+            "date": "2020-07-14T10:01:34.000+00:00"
+        },
+        "descricao": "Sopa de arroz com frango",
+        "quantidade": "1 xícara (243 g)",
+        "calorias": "58 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720558,
+            "date": "2020-07-14T09:55:58.000+00:00"
+        },
+        "descricao": "Mariola / Doce de banana",
+        "quantidade": "1 mariola (15 g)",
+        "calorias": "30 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720620,
+            "date": "2020-07-14T09:57:00.000+00:00"
+        },
+        "descricao": "Banana",
+        "quantidade": "1 banana (125 g)",
+        "calorias": "111 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720760,
+            "date": "2020-07-14T09:59:20.000+00:00"
+        },
+        "descricao": "Pão de banana",
+        "quantidade": "1 fatia (28.4 g)",
+        "calorias": "91 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720608,
+            "date": "2020-07-14T09:56:48.000+00:00"
+        },
+        "descricao": "Banana",
+        "quantidade": "1 banana (125 g)",
+        "calorias": "111 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720923,
+            "date": "2020-07-14T10:02:03.000+00:00"
+        },
+        "descricao": "Suco de banana",
+        "quantidade": "1 garrafa (1000 ml)",
+        "calorias": "500 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720947,
+            "date": "2020-07-14T10:02:27.000+00:00"
+        },
+        "descricao": "Torta de banana",
+        "quantidade": "1 porção (100 g)",
+        "calorias": "395 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720947,
+            "date": "2020-07-14T10:02:27.000+00:00"
+        },
+        "descricao": "Bolo de banana",
+        "quantidade": "1 pedaço (113 g)",
+        "calorias": "295 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720760,
+            "date": "2020-07-14T09:59:20.000+00:00"
+        },
+        "descricao": "Trouxinha de maçã",
+        "quantidade": "1 pedaço (82 g)",
+        "calorias": "285 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720549,
+            "date": "2020-07-14T09:55:49.000+00:00"
+        },
+        "descricao": "Purê de maçã",
+        "quantidade": "1 xícara (114 g)",
+        "calorias": "71 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720608,
+            "date": "2020-07-14T09:56:48.000+00:00"
+        },
+        "descricao": "Maçã",
+        "quantidade": "1 maçã (182 g)",
+        "calorias": "95 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720608,
+            "date": "2020-07-14T09:56:48.000+00:00"
+        },
+        "descricao": "Purê de maçã",
+        "quantidade": "1 xícara (246 g)",
+        "calorias": "167 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720580,
+            "date": "2020-07-14T09:56:20.000+00:00"
+        },
+        "descricao": "Vinagre de maçã",
+        "quantidade": "1 colher de sopa (14.9 g)",
+        "calorias": "3 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720760,
+            "date": "2020-07-14T09:59:20.000+00:00"
+        },
+        "descricao": "Torta de maçã",
+        "quantidade": "1 fatia (125 g)",
+        "calorias": "296 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720773,
+            "date": "2020-07-14T09:59:33.000+00:00"
+        },
+        "descricao": "Puré de maçã",
+        "quantidade": "1 xícara (255 g)",
+        "calorias": "173 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720947,
+            "date": "2020-07-14T10:02:27.000+00:00"
+        },
+        "descricao": "Bolo de maçã",
+        "quantidade": "1 porção (100 g)",
+        "calorias": "252 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720947,
+            "date": "2020-07-14T10:02:27.000+00:00"
+        },
+        "descricao": "Trouxinha de maçã",
+        "quantidade": "1 pedaço (82 g)",
+        "calorias": "285 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720923,
+            "date": "2020-07-14T10:02:03.000+00:00"
+        },
+        "descricao": "Suco de maçã",
+        "quantidade": "1 garrafa (1000 ml)",
+        "calorias": "460 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720947,
+            "date": "2020-07-14T10:02:27.000+00:00"
+        },
+        "descricao": "Strudel de maçã",
+        "quantidade": "1 pedaço (71 g)",
+        "calorias": "195 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720387,
+            "date": "2020-07-14T09:53:07.000+00:00"
+        },
+        "descricao": "Rolo de carne",
+        "quantidade": "1 fatia (250 g)",
+        "calorias": "223 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720387,
+            "date": "2020-07-14T09:53:07.000+00:00"
+        },
+        "descricao": "Rolo de carne de porco",
+        "quantidade": "1 fatia (250 g)",
+        "calorias": "608 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720726,
+            "date": "2020-07-14T09:58:46.000+00:00"
+        },
+        "descricao": "Molho de carne / bife",
+        "quantidade": "1 xícara (233 g)",
+        "calorias": "123 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720760,
+            "date": "2020-07-14T09:59:20.000+00:00"
+        },
+        "descricao": "Pastel frito de carne",
+        "quantidade": "1 pastel (65 g)",
+        "calorias": "203 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720595,
+            "date": "2020-07-14T09:56:35.000+00:00"
+        },
+        "descricao": "Pastel de carne",
+        "quantidade": "1 porção (125 g)",
+        "calorias": "421 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720527,
+            "date": "2020-07-14T09:55:27.000+00:00"
+        },
+        "descricao": "Carne de carneiro",
+        "quantidade": "1 pedaço (240 g)",
+        "calorias": "562 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720817,
+            "date": "2020-07-14T10:00:17.000+00:00"
+        },
+        "descricao": "Ensopado de carne",
+        "quantidade": "1 xícara (196 g)",
+        "calorias": "186 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720817,
+            "date": "2020-07-14T10:00:17.000+00:00"
+        },
+        "descricao": "Panqueca de carne",
+        "quantidade": "1 porção (200 g)",
+        "calorias": "260 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720817,
+            "date": "2020-07-14T10:00:17.000+00:00"
+        },
+        "descricao": "Rolo-de-carne",
+        "quantidade": "1 rolo (284 g)",
+        "calorias": "721 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720894,
+            "date": "2020-07-14T10:01:34.000+00:00"
+        },
+        "descricao": "Sopa de carne",
+        "quantidade": "1 xícara (213 g)",
+        "calorias": "70 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720894,
+            "date": "2020-07-14T10:01:34.000+00:00"
+        },
+        "descricao": "Sopa de macarrão com carne",
+        "quantidade": "1 xícara (244 g)",
+        "calorias": "83 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720976,
+            "date": "2020-07-14T10:02:56.000+00:00"
+        },
+        "descricao": "Ensopado de carne",
+        "quantidade": "1 porção (252 g)",
+        "calorias": "481 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720817,
+            "date": "2020-07-14T10:00:17.000+00:00"
+        },
+        "descricao": "Escondidinho de carne",
+        "quantidade": "1 porção (300 g)",
+        "calorias": "372 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720894,
+            "date": "2020-07-14T10:01:34.000+00:00"
+        },
+        "descricao": "Caldo de carne de gado",
+        "quantidade": "1 xícara (240 g)",
+        "calorias": "7 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720620,
+            "date": "2020-07-14T09:57:00.000+00:00"
+        },
+        "descricao": "Fruta-pão",
+        "quantidade": "1/4 fruta-pão (96 g)",
+        "calorias": "99 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720736,
+            "date": "2020-07-14T09:58:56.000+00:00"
+        },
+        "descricao": "Fruta-pão",
+        "quantidade": "1 pedaço (30 g)",
+        "calorias": "57 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720331,
+            "date": "2020-07-14T09:52:11.000+00:00"
+        },
+        "descricao": "Frango capão",
+        "quantidade": "1 capão (1418 g)",
+        "calorias": "3247 kcal"
+    }
+]
