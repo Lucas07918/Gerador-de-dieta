@@ -1,0 +1,29 @@
+[
+    {
+        "id": {
+            "timestamp": 1594720923,
+            "date": "2020-07-14T10:02:03.000+00:00"
+        },
+        "descricao": "Suco de ma\u00e7\u00e3",
+        "quantidade": "1 garrafa\u00a0(1000 ml)",
+        "calorias": "460 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720894,
+            "date": "2020-07-14T10:01:34.000+00:00"
+        },
+        "descricao": "Sopa de carne",
+        "quantidade": "1 x\u00edcara\u00a0(213 g)",
+        "calorias": "70 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720558,
+            "date": "2020-07-14T09:55:58.000+00:00"
+        },
+        "descricao": "Mariola / Doce de banana",
+        "quantidade": "1 mariola\u00a0(15 g)",
+        "calorias": "30 kcal"
+    }
+]

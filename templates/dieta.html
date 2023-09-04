@@ -19,8 +19,6 @@
         <div id="refeicao">
             <h1>Café da Manhã</h1>
         </div>
-        {% if comidas %}
-        {% for c in comidas %}
         <div id="content">
             <table>
                 <thead>
@@ -44,11 +42,10 @@
                 <h2>Não existe comidas cadastradas</h2>
                 {% endif %}
             </table>
+            <form action="/gerarCafe">
+                <button>Gerar Novamente</button>
+            </form>
         </div>
-        {% endfor %}
-        {% else %}
-        <h2>Não existe comidas cadastradas</h2>
-        {% endif %}
     </div>
 </body>
 </html>
