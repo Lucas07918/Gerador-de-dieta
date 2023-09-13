@@ -16,10 +16,15 @@ def calculoTop():
     idade = int(request.form.get('idade'))
     atividade = float(request.form.get('atividade'))
     peso = int(request.form.get('peso'))
-    pesoAlcancar = int(request.form.get('pesoAlcancar'))
     sexo = int(request.form.get('sexo'))
     objetivo = int(request.form.get('objetivo'))
     velocidade = int(request.form.get('velocidade'))
+
+    if objetivo == 1:
+        pesoAlcancar = 0
+    else:
+        pesoAlcancar = int(request.form.get('pesoAlcancar'))
+
 
     if sexo == 1:
         tmb = (88.362 + (13.397 * peso) + (4.799 * altura) - (5.677 * idade)) * atividade
@@ -27,7 +32,8 @@ def calculoTop():
         tmb = (447.593  + (9.247 * peso) + (3.098 * altura) - (4.330 * idade)) * atividade
     
     if objetivo == 1:
-        kcalPDia = tmb
+        kcalPDia = math.ceil(tmb)
+        tempo = 0
     elif objetivo == 2:
         necessario = (pesoAlcancar - peso) * 7000
         tempo = necessario / velocidade
@@ -77,7 +83,39 @@ def gerarTodos():
 def dieta():
     with open('./JSON/cafeDaManhaDieta.json', 'r', encoding='utf-8') as Temp:
         comida = json.load(Temp)
-    return render_template('dieta.html', comidas = comida)
+    with open('./JSON/inputValue.json', 'r') as valueTemp:
+        values = json.load(valueTemp)
+    for i in values:
+        calorias = i.get('kcalNecessarias')
+        tempo = i.get('tempo')
+    return render_template('dieta.html', comidas = comida, calorias = calorias, tempo = tempo)
+
+@app.route('/salvar')
+def salvar():
+    with open('./JSON/cafeDaManhaDieta.json', 'r', encoding='utf-8') as Temp:
+        cafe = json.load(Temp)
+    with open('./JSON/inputValue.json', 'r', encoding='utf-8') as inputTemp:
+        inputvalue = json.load(inputTemp)
+
+    with open('./JSON/Salvo/cafeDaManhaDietaSalvo.json', 'w', encoding='utf-8') as GravarCafeSalvo:
+        json.dump(cafe, GravarCafeSalvo, indent=4)
+    with open('./JSON/Salvo/inputValueSalvo.json', 'w', encoding='utf-8') as GravarInputSalvo:
+        json.dump(inputvalue, GravarInputSalvo, indent=4)
+
+    return redirect('/DietaSalva')
+
+@app.route('/DietaSalva')
+def DietaSalva():
+    with open('./JSON/Salvo/cafeDaManhaDietaSalvo.json', 'r', encoding='utf-8') as CafeTemp:
+        cafeSalvo = json.load(CafeTemp)
+    with open('./JSON/Salvo/inputValueSalvo.json', 'r', encoding='utf-8') as inputSalvoTemp:
+        inputvalueSalvo = json.load(inputSalvoTemp)
+
+    for i in inputvalueSalvo:
+        calorias = i.get('kcalNecessarias')
+        tempo = i.get('tempo')
+
+    return render_template("salvo.html", comidas = cafeSalvo, calorias = calorias, tempo = tempo)
 
 @app.route('/gerarCafe')
 def gerarCafe():

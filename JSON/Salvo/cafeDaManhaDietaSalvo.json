@@ -1,21 +1,21 @@
 [
     {
         "id": {
-            "timestamp": 1594720760,
-            "date": "2020-07-14T09:59:20.000+00:00"
+            "timestamp": 1594720817,
+            "date": "2020-07-14T10:00:17.000+00:00"
         },
-        "descricao": "P\u00e3o de batata",
-        "quantidade": "1 fatia\u00a0(32 g)",
-        "calorias": "85 kcal"
+        "descricao": "Escondidinho de carne",
+        "quantidade": "1 por\u00e7\u00e3o\u00a0(300 g)",
+        "calorias": "372 kcal"
     },
     {
         "id": {
             "timestamp": 1594720894,
             "date": "2020-07-14T10:01:34.000+00:00"
         },
-        "descricao": "Sopa de carne",
-        "quantidade": "1 x\u00edcara\u00a0(213 g)",
-        "calorias": "70 kcal"
+        "descricao": "Sopa de arroz com frango",
+        "quantidade": "1 x\u00edcara\u00a0(243 g)",
+        "calorias": "58 kcal"
     },
     {
         "id": {

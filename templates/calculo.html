@@ -3,36 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>calculo</title>
+
+    
 </head>
-<body>
-    <form action="/calculoTop" method="post">
-        <select name="sexo" id="sexo">
-            <option value="0">Feminino</option>
-            <option value="1">Masculino</option>
-        </select>
-        <select name="objetivo" id="objetivo">
-            <option value="1">Manter</option>
-            <option value="2">Engordar</option>
-            <option value="3">Emagrecer</option>
-        </select>
-        <select name="velocidade" id="velocidade">
-            <option value="1750">Devagar</option>
-            <option value="3500">Moderado</option>
-            <option value="7000">Rápido</option>
-        </select>
-        <input type="number" name="peso" id="peso" placeholder="peso em kg">
-        <input type="number" name="idade" id="idade" placeholder="idade">
-        <input type="number" name="altura" id="altura" placeholder="altura em cm">
-        <select name="atividade" id="atividade">
-            <option value="1.2">Baixo</option>
-            <option value="1.375">Leve</option>
-            <option value="1.55">Moderado</option>
-            <option value="1.725">Alto</option>
-            <option value="1.9">Muito alto</option>
-        </select>
-            <input type="number" name="pesoAlcancar" id="pesoAlcancar" placeholder="peso a alcançar">
-        <button>Enviar</button>
-    </form>
+<body id="bodyid" class="body-light">
+    <div id="container">
+        <div class="form">
+            <form action="/calculoTop" method="post">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Preencha</h1>
+                    </div>
+                    <div id="modo">
+                        <i id="mode_icon" class="fa-solid fa-moon"></i>
+                    </div>
+                    <div class="login-button">
+                        <button ><a href="/DietaSalva">Dieta salva</a></button>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="peso">Peso atual</label>
+                        <input type="number" name="peso" id="peso" placeholder="peso em kg" required>
+                    </div>
+                    <div class="input-box">    
+                        <label for="objetivo">Objetivo</label>
+                        <select name="objetivo" id="objetivo" required onchange="habilitarDesabilitarFormulario()">
+                            <option value="1">Manter</option>
+                            <option value="2">Engordar</option>
+                            <option value="3">Emagrecer</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <label for="pesoAlcancar">Peso Desejado</label>
+                        <input type="number" name="pesoAlcancar" id="pesoAlcancar" placeholder="peso a alcançar" required disabled>
+                    </div>
+                    <div class="input-box">
+                        <label for="sexo">Sexo</label>
+                        <select name="sexo" id="sexo" required>
+                            <option value="0">Feminino</option>
+                            <option value="1">Masculino</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <label for="idade">Idade</label>
+                        <input type="number" name="idade" id="idade" placeholder="idade" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="altura">Altura</label>
+                        <input type="number" name="altura" id="altura" placeholder="altura em cm" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="atividade">Nível de Atividade</label>
+                        <select name="atividade" id="atividade" required>
+                            <option value="1.2">Baixo</option>
+                            <option value="1.375">Leve</option>
+                            <option value="1.55">Moderado</option>
+                            <option value="1.725">Alto</option>
+                            <option value="1.9">Muito alto</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <label for="velocidade">Quanto tempo?</label>
+                        <select name="velocidade" id="velocidade" required>
+                            <option value="1750">Devagar</option>
+                            <option value="3500">Moderado</option>
+                            <option value="7000">Rápido</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="continue-button">
+                    <button>Calcular</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script>
+        function habilitarDesabilitarFormulario() {
+            // Obtém o elemento de seleção do formulário x
+            var selecao = document.getElementById("objetivo");
+            // Obtém o elemento do formulário y
+            var formularioY = document.getElementById("pesoAlcancar");
+
+            // Verifica se o item 1 está selecionado em formulário x
+            if (selecao.value !== "1") {
+                // Desabilita o formulário y
+                formularioY.disabled = false;
+            } else {
+                // Habilita o formulário y
+                formularioY.disabled = true;
+            }
+        }
+
+        const mode = document.getElementById('mode_icon');
+        console.log(mode)
+        const storageKey = 'siteMode';
+        localStorage.setItem(storageKey, 'body-light');
+        mode.addEventListener('click', () => {
+            const body = document.getElementById('bodyid')
+
+            if(mode.classList.contains('fa-moon')){
+            mode.classList.remove('fa-moon');
+            mode.classList.add('fa-sun');
+
+            body.classList.remove('body-light')
+            body.classList.add('body-dark')
+            localStorage.setItem(storageKey, 'body-dark');
+            const storedMode = localStorage.getItem(storageKey);
+            console.log(storedMode)
+
+            return;
+            }
+
+            mode.classList.add('fa-moon');
+            mode.classList.remove('fa-sun');
+            body.classList.remove('body-dark')
+            body.classList.add('body-light')
+            localStorage.setItem(storageKey, 'body-light');
+            const storedMode = localStorage.getItem(storageKey);
+            console.log(storedMode)
+    })
+    </script>
 </body>
 </html>

@@ -1,36 +1,248 @@
 @import url('./global.css');
 
-#header{
+.body-light{
+    #header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    
+    #titulo{
+        background-color: #14C38E;
+        padding: 10px;
+        border-radius: 20px;
+        color: white;
+    }
+    
+    #gerarNovamente{
+        text-align: center;
+        font-size: 24px;
+        color: #fff;
+        width: 100%;
+        padding: 15px;
+        border: 0;
+        border-radius: 20px;
+        outline: none;
+        cursor: pointer;
+        background-color: #14C38E
+    }
+    
+    #gerarNovamente:hover{
+        background-color: #00DFAB;
+        transition: 0.2s;
+    }
+    
+    #container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 25px 0;
+    }
+    
+    .content{
+        width: 30%;
+        margin: 15px;
+        box-sizing: border-box;
+        float: left;
+        border-radius: 20px;
+        cursor: pointer;
+        padding-top: 10px;
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0,0,0,0.22);
+        transition: .4s;
+        background: #f2f2f2;
+    }
+    
+    .content:hover{
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        transform: translate(0px, -8px);
+    }
+    
+    #refeicao{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .button-gerar{
+        text-align: center;
+        font-size: 24px;
+        color: #fff;
+        width: 100%;
+        padding: 15px;
+        border: 0;
+        border-radius: 0;
+        outline: none;
+        cursor: pointer;
+        margin-top: 5px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        background-color: #14C38E;
+    }
+    
+    .button-gerar:hover{
+        background-color: #00DFAB;
+        transition: 0.2s;
+    }
+}
+
+.body-dark{
+    #header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 30px;
+        margin-right: 30px;
+        color: #fff;
+    }
+    
+    #titulo{
+        background-color: #00ff88;
+        padding: 10px;
+        border-radius: 20px;
+        color: 201b2c;
+    }
+    
+    #gerarNovamente{
+        text-align: center;
+        font-size: 24px;
+        color: #201b2c;
+        width: 100%;
+        padding: 15px;
+        border: 0;
+        border-radius: 20px;
+        outline: none;
+        cursor: pointer;
+        background-color: #00ff88
+    }
+    
+    #gerarNovamente:hover{
+        background-color: #00ff88;
+        box-shadow: 0px 10px 40px -12px #00ff8052;
+        transition: 0.5s;
+    }
+    
+    #container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin: 25px 0;
+    }
+    
+    .content{
+        width: 30%;
+        margin: 15px;
+        box-sizing: border-box;
+        float: left;
+        border-radius: 20px;
+        cursor: pointer;
+        padding-top: 10px;
+        box-shadow: 0 14px 28px rgba(0, 255, 128, 0.178), 0 10px 10px rgba(0, 255, 128, 0.171);
+        transition: .4s;
+        background: #f2f2f2;
+    }
+    
+    .content:hover{
+        box-shadow: 0 3px 6px rgba(0, 255, 128, 0.322), 0 3px 6px rgba(0, 255, 128, 0.322);
+        transform: translate(0px, -8px);
+    }
+    
+    #refeicao{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .button-gerar{
+        text-align: center;
+        font-size: 24px;
+        color: #201b2c;
+        width: 100%;
+        padding: 15px;
+        border: 0;
+        border-radius: 0;
+        outline: none;
+        cursor: pointer;
+        margin-top: 5px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        background-color: #00ff88;
+    }
+    
+    .button-gerar:hover{
+        background-color: #00ff88;
+        transition: 0.2s;
+    }
+
+    background-color: #201b2c;
+}
+
+/* #header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 #titulo{
-    background-color: #19ba67;
+    background-color: #14C38E;
     padding: 10px;
     border-radius: 20px;
     color: white;
 }
 
 #gerarNovamente{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    border: 0;
     border-radius: 20px;
-    padding: 10px;
-    border: 5px solid #19ba67;
-    justify-content: center;
-    align-items: center;
-    color: #19ba67;
+    outline: none;
+    cursor: pointer;
+    background-color: #14C38E
+}
+
+#gerarNovamente:hover{
+    background-color: #00DFAB;
+    transition: 0.2s;
 }
 
 #container{
-    background-color: rgb(194, 194, 194);
-    margin: 20px;
-    padding: 20px;
-    border-radius: 20px;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
     align-items: center;
-    width: 350px;
+    margin: 25px 0;
+}
+
+.content{
+    width: 30%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background: #f2f2f2;
+}
+
+.content:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
 }
 
 #refeicao{
@@ -38,6 +250,27 @@
     display: flex;
     justify-content: center;
 }
+
+.button-gerar{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    border-radius: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #14C38E;
+}
+
+.button-gerar:hover{
+    background-color: #00DFAB;
+    transition: 0.2s;
+} */
 
 table{
     width: 30%;
@@ -52,7 +285,20 @@ th{
 }
 
 td{
-    padding: 14px 23px;
+    padding: 10px 20px;
     border: 0;
-    background-color: white;
+    background-color: #f2f2f2;
+}
+
+tbody{
+    overflow-y: scroll;
+}
+
+.table{
+    width: 396px; 
+    height: 350px;
+    overflow-y: auto;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
 }
