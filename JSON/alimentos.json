@@ -502,5 +502,77 @@
         "descricao": "Frango capão",
         "quantidade": "1 capão (1418 g)",
         "calorias": "3247 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720894,
+            "date": "2020-07-14T10:02:45.000+00:00"
+        },
+        "descricao": "Arroz branco cozido",
+        "quantidade": "1 xícara (186 g)",
+        "calorias": "205 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720894,
+            "date": "2020-07-14T10:03:56.000+00:00"
+        },
+        "descricao": "Salada de alface e tomate",
+        "quantidade": "1 porção (100 g)",
+        "calorias": "15 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720894,
+            "date": "2020-07-14T10:04:57.000+00:00"
+        },
+        "descricao": "Peito de frango grelhado",
+        "quantidade": "1 peito (170 g)",
+        "calorias": "230 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720894,
+            "date": "2020-07-14T10:05:58.000+00:00"
+        },
+        "descricao": "Batata doce cozida",
+        "quantidade": "1 batata (200 g)",
+        "calorias": "180 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720894,
+            "date": "2020-07-14T10:06:59.000+00:00"
+        },
+        "descricao": "Abóbora cabotiá cozida",
+        "quantidade": "1 porção (205 g)",
+        "calorias": "50 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720894,
+            "date": "2020-07-14T10:08:10.000+00:00"
+        },
+        "descricao": "Rúcula",
+        "quantidade": "1 porção (30 g)",
+        "calorias": "5 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720894,
+            "date": "2020-07-14T10:09:11.000+00:00"
+        },
+        "descricao": "Repolho cozido",
+        "quantidade": "1 porção (150 g)",
+        "calorias": "35 kcal"
+    },
+    {
+        "id": {
+            "timestamp": 1594720894,
+            "date": "2020-07-14T10:10:22.000+00:00"
+        },
+        "descricao": "Berinjela grelhada",
+        "quantidade": "1 porção (175 g)",
+        "calorias": "50 kcal"
     }
 ]
